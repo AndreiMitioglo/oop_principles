@@ -34,7 +34,7 @@ public class Person {
         System.out.println("Person walk");
     }
     public void eat(){
-        System.out.println("Person sleeps");
+        System.out.println("Person eats");
     }
 
     public String getDOB() {
