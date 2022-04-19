@@ -74,7 +74,7 @@ public class FoodTest {
     Count and print how many elements in the list has a name that has more than 5 characters
 
     RESULT:
-2
+             2
  */
 
         ArrayList<Food> allFoods = new ArrayList<>();
