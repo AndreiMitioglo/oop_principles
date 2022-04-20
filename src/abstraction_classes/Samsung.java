@@ -26,7 +26,6 @@ public class Samsung extends Phone{
     }
 
 
-
     @Override
     public void text() {
         System.out.println("Samsung texts");

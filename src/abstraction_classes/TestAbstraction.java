@@ -7,7 +7,6 @@ public class TestAbstraction {
     public static void main(String[] args) {
 
 
-
     /*
     Create an object of Samsung called as s1
     info it will have is as bellow
@@ -44,6 +43,7 @@ public class TestAbstraction {
         System.out.println(countConvertibles);
         System.out.println("The most expensive phone is " +
                 mostExpensivePhone.getClass().getSimpleName()); // iPhone
+        System.out.println("The color of most expensive phone is " + mostExpensivePhone.color); // Silver
 
         System.out.println(iPhone.OS);// invoking static instance variables
         System.out.println(Samsung.OS);
