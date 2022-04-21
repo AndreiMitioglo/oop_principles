@@ -1,6 +1,6 @@
 package abstraction_classes;
 
-public class Samsung extends Phone{
+public class Samsung extends Phone implements Camera, Bluetooth{
 
     public static final String OS = "Android";
     public Samsung() {
@@ -30,5 +30,15 @@ public class Samsung extends Phone{
     public void text() {
         System.out.println("Samsung texts");
 
+    }
+
+    @Override
+    public void takePhoto() {
+        System.out.println("Samsung takes photo");
+    }
+
+    @Override
+    public void connectBluetooth() {
+        System.out.println("Samsung connects to Bluetooth");
     }
 }
